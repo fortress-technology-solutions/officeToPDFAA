@@ -31,6 +31,7 @@ module.exports = buffer => {
               outdir.rmdir();
               if (err) reject(err);
               resolve(buffer);
+              outdir.rmdirSync();
             }
           );
         }
