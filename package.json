@@ -1,0 +1,23 @@
+{
+  "name": "officetopdfaa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AcklenAvenue/officeToPDFAA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AcklenAvenue/officeToPDFAA/issues"
+  },
+  "homepage": "https://github.com/AcklenAvenue/officeToPDFAA#readme",
+  "dependencies": {
+    "temporary": "0.0.8",
+    "tmp": "0.0.33"
+  }
+}
