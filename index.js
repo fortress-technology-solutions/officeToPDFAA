@@ -30,8 +30,6 @@ module.exports = buffer => {
               
               if (err) reject(err);
               resolve(buffer);
-              file.unlinkSync();
-              outdir.rmdirSync();
             }
           );
         }
