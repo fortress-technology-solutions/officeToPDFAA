@@ -27,8 +27,7 @@ module.exports = buffer => {
                 ".pdf"
             ),
             (err, buffer) => {
-              file.unlink();
-              outdir.rmdir();
+              
               if (err) reject(err);
               resolve(buffer);
               file.unlinkSync();
