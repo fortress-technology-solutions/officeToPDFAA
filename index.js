@@ -7,6 +7,8 @@ module.exports = buffer => {
   return new Promise(function(resolve, reject) {
     var file = new tmp.File();
     var outdir = new tmp.Dir();
+    console.log(file);
+    console.log(outdir);
     file.writeFile(buffer, err => {
       if (err) reject(err);
 
@@ -35,5 +37,7 @@ module.exports = buffer => {
         }
       });
     });
+   // file.unlink();
+    outdir.rmdirSync();
   });
 };
