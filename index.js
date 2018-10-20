@@ -2,6 +2,7 @@ var tmp = require("temporary");
 var fs = require("fs");
 var path = require("path");
 var exec = require("child_process").exec;
+var rimraf = require("rimraf");
 
 module.exports = buffer => {
   return new Promise(function(resolve, reject) {
@@ -29,15 +30,16 @@ module.exports = buffer => {
                 ".pdf"
             ),
             (err, buffer) => {
-              
               if (err) reject(err);
-              resolve(buffer);
+              rimraf(outdir.path, () => {
+                rimraf(file.path, () => {
+                  resolve(buffer);
+                });
+              });
             }
           );
         }
       });
     });
-   // file.unlink();
-    outdir.rmdirSync();
   });
 };

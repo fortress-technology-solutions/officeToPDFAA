@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/AcklenAvenue/officeToPDFAA#readme",
   "dependencies": {
+    "rimraf": "^2.6.2",
     "temporary": "0.0.8",
     "tmp": "0.0.33"
   }
