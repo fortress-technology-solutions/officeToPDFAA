@@ -16,6 +16,9 @@
     "url": "https://github.com/AcklenAvenue/officeToPDFAA/issues"
   },
   "homepage": "https://github.com/AcklenAvenue/officeToPDFAA#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "dependencies": {
     "rimraf": "^2.6.2",
     "temporary": "0.0.8",
