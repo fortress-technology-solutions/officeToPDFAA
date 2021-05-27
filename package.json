@@ -1,21 +1,20 @@
 {
   "name": "@fortress-technology-solutions/officetopdfaa",
-  "version": "2.0.0",
-  "description": "Acklen Avenue no longer supports this repository. A fork will be maintained by: Isaac Martinez, imtz90b@gmail.com",
+  "version": "2.0.2",
+  "description": "Acklen Avenue no longer supports this repository. A fork will be maintained by Fortress Technology Solutions",
   "main": "index.js",
   "scripts": {
     "test": "test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fortress-technology-solutions/officeToPDFAA.git"
+    "url": "https://github.com/fortress-technology-solutions/officeToPDFAA.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AcklenAvenue/officeToPDFAA/issues"
+    "url": "https://github.com/fortress-technology-solutions/officeToPDFAA/issues"
   },
-  "homepage": "https://github.com/AcklenAvenue/officeToPDFAA#readme",
   "dependencies": {
     "rimraf": "^2.6.2",
     "temporary": "0.0.8",
